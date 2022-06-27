@@ -1,0 +1,54 @@
+.content {
+
+    font-family: 'Roboto', sans-serif;
+
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 800;
+    color: #F9FAF8;
+    align-self: flex-end; 
+    flex-grow: 5;
+    padding-left: 15%;
+}
+
+.header-link {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.end-link {
+    padding-right: 15%;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+}
+
+/* .cta, .rand-info {
+    background-color: #3882F6;
+} */
+
+
+.quote { 
+    background-color: #E5E7EB;
+}
+
+/* .header, .footer, .quote, .cta, .rand-info {
+    height: 10px;
+} */
